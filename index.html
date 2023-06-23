@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reader | Hugo Personal Blog Template</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- theme meta -->
+  <meta name="theme-name" content="reader" />
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- plugins -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+
+  <!-- glightbox -->
+  <link rel="stylesheet" href="./css/glightbox.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+  <meta property="og:title" content="Reader | Hugo Personal Blog Template" />
+  <meta property="og:description" content="This is meta description" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:updated_time" content="2020-03-15T15:40:24+06:00" />
+</head>
+
+<body>
+  <!-- navigation -->
+  <header class="navigation fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-white">
+        <a class="navbar-brand order-1" href="index.html">
+          <img class="img-fluid" width="120px" src="images/logo.png" alt="Reader | Hugo Personal Blog Template">
+        </a>
+        <div class="collapse navbar-collapse text-center order-lg-3 order-3" id="navigation">
+          <ul class="navbar-nav align-items-center ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Trang chủ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Mua bán <i class="ti-angle-down ml-1"></i>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-submenu dropdown">
+                  <a class=" dropdown-item" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">Mua bán sách<i class="ti-angle-down ml-1"></i></a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="./product.html">Sách văn học</a></li>
+                    <li><a class="dropdown-item" href="./product.html">Sách kinh tế</a></li>
+                    <li><a class="dropdown-item" href="./product.html">Sách y học </a>
+                    <li><a class="dropdown-item" href="./product.html">Sách ngoại ngữ</a>
+                    <li><a class="dropdown-item" href="./product.html">Sách khác</a>
+                  </ul>
+                </div>
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item">Mua bán tài liệu<i class="ti-angle-down ml-1"></i></a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="./product.html">Kinh tế</a></li>
+                    <li><a class="dropdown-item" href="./product.html">Giáo dục</a></li>
+                    <li><a class="dropdown-item" href="./product.html">Ngoại ngữ</a>
+                    <li><a class="dropdown-item" href="./product.html">Y tế</a>
+                    <li><a class="dropdown-item" href="./product.html">Văn hóa</a>
+                  </ul>
+                </div>
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item" href="about-us.html">Mua bán audio<i class="ti-angle-down ml-1"></i></a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="./product.html">Kinh tế</a></li>
+                    <li><a class="dropdown-item" href="./product.html">Giáo dục</a></li>
+                    <li><a class="dropdown-item" href="./product.html">Ngoại ngữ</a>
+                    <li><a class="dropdown-item" href="./product.html">Y tế</a>
+                    <li><a class="dropdown-item" href="./product.html">Văn hóa</a>
+                  </ul>
+                </div>
+                <div class="dropdown-submenu">
+                  <a class="dropdown-item" href="about-us.html">Mua bán khác<i class="ti-angle-down ml-1"></i></a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="./product.html">Kinh tế</a></li>
+                    <li><a class="dropdown-item" href="./product.html">Giáo dục</a></li>
+                    <li><a class="dropdown-item" href="./product.html">Ngoại ngữ</a>
+                    <li><a class="dropdown-item" href="./product.html">Y tế</a>
+                    <li><a class="dropdown-item" href="./product.html">Văn hóa</a>
+                  </ul>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Bài viết <i class="ti-angle-down ml-1"></i>
+              </a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="post.html">Đời sống</a>
+                  <a class="dropdown-item" href="post.html">Học tập</a>
+                  <a class="dropdown-item" href="post.html">Ngoại ngữ</a>
+                  <a class="dropdown-item" href="post.html">Thực phẩm</a>
+                  <a class="dropdown-item" href="post.html">Khác</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">Giỏ hàng</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <!-- User -->
+              <a class="nav-link d-flex align-items-center group-user" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+                <div class="avatar">
+                  <img src="./images/about-me.jpg" alt="">
+                </div>
+                <div class="name">Devid<i class="ti-angle-down ml-1"></i></div>
+                
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="author-single.html">Hồ sơ cá nhân</a>
+                <a class="dropdown-item" href="author.html">Bài đăng</a>
+                <a class="dropdown-item" href="author-product.html">Tài liệu</a>
+                <a class="dropdown-item" href="code-intro.html">Mã giới thiệu</a>
+                <a class="dropdown-item" href="author.html">Chính sách hoa hồng</a>
+                <a class="dropdown-item" href="manager-code.html">Quản lý tài chính</a>
+                <a class="dropdown-item" href="author.html">Đăng xuất</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="order-2 order-lg-2 d-flex align-items-center">
+          <!-- search -->
+          <form class="search-bar" action="search.html">
+            <input id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
+          </form>
+
+          <button class="navbar-toggler border-0 order-1" type="button" data-toggle="collapse"
+            data-target="#navigation">
+            <i class="ti-menu"></i>
+          </button>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+  <!-- /navigation -->
+
+  <!--Banner-->
+  <div class="" style="padding-top: 120px;">
+    <div class="container">
+      <div id="img-laptop" class="post-slider" style="max-height: 300px;">
+        <img src="images/post/banner5.jpg" class="card-img-top" alt="post-thumb">
+        <img src="images/post/banner4.jpg" class="card-img-top" alt="post-thumb">
+      </div>
+      <div id="img-mobile" class="post-slider" style="max-height: 300px;">
+        <img src="images/post/banner-mb-1.jpg" class="card-img-top" alt="post-thumb">
+        <img src="images/post/banner-mb2.jpg" class="card-img-top" alt="post-thumb">
+      </div>
+    </div>
+  </div>
+  <!-- /Banner-->
+
+  <section class="section pb-0 pt-5 mt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6 mb-5">
+              <h2 class="h5 section-title">Phù hợp với bạn</h2>
+              <article class="card">
+                <div class="post-slider slider-sm d-flex justify-content-center">
+                  <a href="images/books/01.jpg" data-gallery="portfolio-gallery-app" class="glightbox">
+                    <img src="images/books/01.jpg" class="card-img" alt="post-thumb">
+                  </a>
+                  
+                </div>
+
+                <div class="card-body">
+                  <h3 class="h4 mb-3"><a class="post-title" href="post-details.html">Tài liệu hướng dẫn cover trong Design.</a></h3>
+                  <ul class="card-meta list-inline">
+                    <li class="list-inline-item">
+                      <a href="author-single.html" class="card-meta-author">
+                        <img src="images/john-doe.jpg">
+                        <span>Charls Xaviar</span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-timer"></i>Miễn phí
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-calendar"></i>14 jan, 2020
+                    </li>
+                    <li class="list-inline-item">
+                      <ul class="card-meta-tag list-inline">
+                        <li class="list-inline-item"><a href="tags.html">Color</a></li>
+                        <li class="list-inline-item"><a href="tags.html">Recipe</a></li>
+                        <li class="list-inline-item"><a href="tags.html">Fish</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, officia quaerat...!</p>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <a href="post-details.html" class="btn btn-outline-primary">Tải ngay</a>
+                    <a href="post-details.html" class="btn btn-outline-danger">Thêm vào giỏ</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-6 mb-5">
+              <h2 class="h5 section-title">Tài liệu nổi bật</h2>
+
+              <article class="card mb-4">
+                <div class="card-body d-flex">
+                  <a href="images/books/02.jpg" data-gallery="portfolio-gallery-app" class="glightbox">
+                    <img class="card-img" src="images/books/02.jpg">
+                  </a>
+                  
+                  <div class="ml-3">
+                    <h4><a href="post-details.html" class="post-title">Tài liệu cho bạn thêm kinh nghiệm nắm bắt cơ hội</a></h4>
+                    <div class="list-inline-item price">2.000.000 VNĐ</div>
+                    <ul class="card-meta list-inline mb-0">
+                      <li class="list-inline-item mb-1">
+                        <a href="author-single.html" class="card-meta-author">
+                          <img src="images/john-doe.jpg">
+                          <span>Charls Xaviar</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="d-flex align-items-center mt-2" style="gap: 10px;">
+                      <a href="post-details.html" class="btn btn-outline-primary-sm">Tải ngay</a>
+                      <a href="post-details.html" class="btn btn-outline-danger-sm">Thêm vào giỏ</a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card mb-4">
+                <div class="card-body d-flex">
+                  <a href="images/books/03.jpg" data-gallery="portfolio-gallery-app" class="glightbox">
+                    <img class="card-img" src="images/books/03.jpg">
+                  </a>
+                  
+                  <div class="ml-3">
+                    <h4><a href="post-details.html" class="post-title">Tài liệu cho bạn thêm kinh nghiệm nắm bắt cơ hội</a></h4>
+                    <div class="list-inline-item price">2.000.000 VNĐ</div>
+                    <ul class="card-meta list-inline mb-0">
+                      <li class="list-inline-item mb-1">
+                        <a href="author-single.html" class="card-meta-author">
+                          <img src="images/john-doe.jpg">
+                          <span>Charls Xaviar</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="d-flex align-items-center mt-2" style="gap: 10px;">
+                      <a href="post-details.html" class="btn btn-outline-primary-sm">Tải ngay</a>
+                      <a href="post-details.html" class="btn btn-outline-danger-sm">Thêm vào giỏ</a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card mb-4">
+                <div class="card-body d-flex">
+                  <a href="images/books/01.jpg" data-gallery="portfolio-gallery-app" class="glightbox">
+                    <img class="card-img" src="images/books/01.jpg">
+                  </a>
+                  
+                  <div class="ml-3">
+                    <h4><a href="post-details.html" class="post-title">Tài liệu cho bạn thêm kinh nghiệm nắm bắt cơ hội</a></h4>
+                    <div class="list-inline-item price">2.000.000 VNĐ</div>
+                    <ul class="card-meta list-inline mb-0">
+                      <li class="list-inline-item mb-1">
+                        <a href="author-single.html" class="card-meta-author">
+                          <img src="images/john-doe.jpg">
+                          <span>Charls Xaviar</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="d-flex align-items-center mt-2" style="gap: 10px;">
+                      <a href="post-details.html" class="btn btn-outline-primary-sm">Tải ngay</a>
+                      <a href="post-details.html" class="btn btn-outline-danger-sm">Thêm vào giỏ</a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 mb-5 mb-lg-0">
+              <h2 class="h5 section-title">Bài viết nổi bật</h2>
+              <article class="card mb-4">
+                <div class="post-slider">
+                  <img src="images/post/banner-mb-1.jpg" class="card-img-top" alt="post-thumb">
+                  <img src="images/post/banner-mb2.jpg" class="card-img-top" alt="post-thumb">
+                </div>
+                <div class="card-body">
+                  <h3 class="mb-3"><a class="post-title" href="post-elements.html">Cách cải thiện tư duy sáng tạo của bạn.</a></h3>
+                  <ul class="card-meta list-inline">
+                    <li class="list-inline-item">
+                      <a href="author-single.html" class="card-meta-author">
+                        <img src="images/john-doe.jpg" alt="John Doe">
+                        <span>John Doe</span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-timer"></i>3 Min To Read
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-calendar"></i>15 jan, 2020
+                    </li>
+                    <li class="list-inline-item">
+                      <ul class="card-meta-tag list-inline">
+                        <li class="list-inline-item"><a href="tags.html">Demo</a></li>
+                        <li class="list-inline-item"><a href="tags.html">Elements</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p>Heading example Here is example of hedings. You can use this heading by following markdownify
+                    rules.
+                    For example: use # for heading 1 and use ###### for heading 6.</p>
+                  <a href="post-elements.html" class="btn btn-outline-primary">Đọc thêm</a>
+                </div>
+              </article>
+
+              <article class="card mb-4">
+                <div class="post-slider">
+                  <img src="images/post/banner-mb2.jpg" class="card-img-top" alt="post-thumb">
+                </div>
+                <div class="card-body">
+                  <h3 class="mb-3"><a class="post-title" href="post-details.html">Advice From a Twenty Something</a>
+                  </h3>
+                  <ul class="card-meta list-inline">
+                    <li class="list-inline-item">
+                      <a href="author-single.html" class="card-meta-author">
+                        <img src="images/john-doe.jpg">
+                        <span>Mark Dinn</span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-timer"></i>2 Min To Read
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-calendar"></i>14 jan, 2020
+                    </li>
+                    <li class="list-inline-item">
+                      <ul class="card-meta-tag list-inline">
+                        <li class="list-inline-item"><a href="tags.html">Decorate</a></li>
+                        <li class="list-inline-item"><a href="tags.html">Creative</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p>It’s no secret that the digital industry is booming. From exciting startups to global brands,
+                    companies
+                    are reaching out to digital agencies, responding to the new possibilities available.</p>
+                  <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+                </div>
+              </article>
+
+              <article class="card mb-4">
+                <div class="post-slider">
+                  <img src="images/post/banner-mb-1.jpg" class="card-img-top" alt="post-thumb">
+                </div>
+
+                <div class="card-body">
+                  <h3 class="mb-3"><a class="post-title" href="post-details.html">Advice From a Twenty Something</a>
+                  </h3>
+                  <ul class="card-meta list-inline">
+                    <li class="list-inline-item">
+                      <a href="author-single.html" class="card-meta-author">
+                        <img src="images/john-doe.jpg">
+                        <span>Charls Xaviar</span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-timer"></i>2 Min To Read
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-calendar"></i>14 jan, 2020
+                    </li>
+                    <li class="list-inline-item">
+                      <ul class="card-meta-tag list-inline">
+                        <li class="list-inline-item"><a href="tags.html">Color</a></li>
+                        <li class="list-inline-item"><a href="tags.html">Recipe</a></li>
+                        <li class="list-inline-item"><a href="tags.html">Fish</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p>It’s no secret that the digital industry is booming. From exciting startups to global brands,
+                    companies
+                    are reaching out to digital agencies, responding to the new possibilities available.</p>
+                  <a href="post-details.html" class="btn btn-outline-primary">Đọc thêm</a>
+                </div>
+              </article>
+
+              <article class="card mb-4">
+                <div class="card-body">
+                  <h3 class="mb-3"><a class="post-title" href="post-details.html">Cheerful Loving Couple Bakers Drinking
+                      Coffee</a></h3>
+                  <ul class="card-meta list-inline">
+                    <li class="list-inline-item">
+                      <a href="author-single.html" class="card-meta-author">
+                        <img src="images/kate-stone.jpg" alt="Kate Stone">
+                        <span>Kate Stone</span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-timer"></i>2 Min To Read
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-calendar"></i>14 jan, 2020
+                    </li>
+                    <li class="list-inline-item">
+                      <ul class="card-meta-tag list-inline">
+                        <li class="list-inline-item"><a href="tags.html">Wow</a></li>
+                        <li class="list-inline-item"><a href="tags.html">Tasty</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p>It’s no secret that the digital industry is booming. From exciting startups to global brands,
+                    companies
+                    are reaching out to digital agencies, responding to the new possibilities available.</p>
+                  <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+                </div>
+              </article>
+
+              <article class="card mb-4">
+                <div class="post-slider">
+                  <img src="images/post/banner-mb-1.jpg" class="card-img-top" alt="post-thumb">
+                </div>
+                <div class="card-body">
+                  <h3 class="mb-3"><a class="post-title" href="post-details.html">How To Make Cupcakes and Cashmere
+                      Recipe
+                      At Home</a></h3>
+                  <ul class="card-meta list-inline">
+                    <li class="list-inline-item">
+                      <a href="author-single.html" class="card-meta-author">
+                        <img src="images/kate-stone.jpg" alt="Kate Stone">
+                        <span>Kate Stone</span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-timer"></i>2 Min To Read
+                    </li>
+                    <li class="list-inline-item">
+                      <i class="ti-calendar"></i>14 jan, 2020
+                    </li>
+                    <li class="list-inline-item">
+                      <ul class="card-meta-tag list-inline">
+                        <li class="list-inline-item"><a href="tags.html">City</a></li>
+                        <li class="list-inline-item"><a href="tags.html">Food</a></li>
+                        <li class="list-inline-item"><a href="tags.html">Taste</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p>It’s no secret that the digital industry is booming. From exciting startups to global brands,
+                    companies
+                    are reaching out to digital agencies, responding to the new possibilities available.</p>
+                  <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+                </div>
+              </article>
+
+
+              <ul class="pagination justify-content-center">
+                <li class="page-item page-item active ">
+                  <a href="#!" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                  <a href="#!" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                  <a href="#!" class="page-link">&raquo;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-5">
+          <h2 class="h5 section-title">Danh mục</h2>
+
+          <!-- Search -->
+          <div class="widget">
+            <h4 class="widget-title"><span>Search</span></h4>
+            <form action="#!" class="widget-search">
+              <input class="mb-3" id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
+              <i class="ti-search"></i>
+              <button type="submit" class="btn btn-primary btn-block">Search</button>
+            </form>
+          </div>
+          <!-- categories -->
+          <div class="widget widget-categories">
+            <h4 class="widget-title"><span>Categories</span></h4>
+            <ul class="list-unstyled widget-list">
+              <li><a href="./product.html" class="d-flex">Sách - Văn học <small class="ml-auto">(4)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Sách - Giáo dục <small class="ml-auto">(1)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Sách - Ngoại ngữ <small class="ml-auto">(1)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Audio - Văn hóa <small class="ml-auto">(1)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Audio - Tài liệu <small class="ml-auto">(1)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Audio - Giải trí <small class="ml-auto">(3)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Audio - Toán học <small class="ml-auto">(1)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Video - Giáo dục <small class="ml-auto">(1)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Video - Đời sống <small class="ml-auto">(2)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Video - Tư duy <small class="ml-auto">(1)</small></a></li>
+              <li><a href="./product.html" class="d-flex">Video - Văn học <small class="ml-auto">(1)</small></a></li>
+              <li><a href="./product.html" class="d-flex">File - Văn học <small class="ml-auto">(1)</small></a></li>
+            </ul>
+          </div><!-- tags -->
+          <div class="widget">
+            <h4 class="widget-title"><span>Tags</span></h4>
+            <ul class="list-inline widget-list-inline widget-card">
+              <li class="list-inline-item"><a href="./product.html">City</a></li>
+              <li class="list-inline-item"><a href="./product.html">Color</a></li>
+              <li class="list-inline-item"><a href="./product.html">Creative</a></li>
+              <li class="list-inline-item"><a href="./product.html">Decorate</a></li>
+              <li class="list-inline-item"><a href="./product.html">Demo</a></li>
+              <li class="list-inline-item"><a href="./product.html">Elements</a></li>
+              <li class="list-inline-item"><a href="./product.html">Fish</a></li>
+              <li class="list-inline-item"><a href="./product.html">Food</a></li>
+              <li class="list-inline-item"><a href="./product.html">Nice</a></li>
+              <li class="list-inline-item"><a href="./product.html">Recipe</a></li>
+              <li class="list-inline-item"><a href="./product.html">Season</a></li>
+              <li class="list-inline-item"><a href="./product.html">Taste</a></li>
+              <li class="list-inline-item"><a href="./product.html">Tasty</a></li>
+              <li class="list-inline-item"><a href="./product.html">Vlog</a></li>
+              <li class="list-inline-item"><a href="./product.html">Wow</a></li>
+            </ul>
+          </div><!-- recent post -->
+
+          <!-- Promotion -->
+          <div class="promotion">
+            <img src="images/promotion.jpg" class="img-fluid w-100">
+            <div class="promotion-content">
+              <h5 class="text-white mb-3">Create Stunning Website!!</h5>
+              <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur sociis. Etiam nunc amet id dignissim.
+                Feugiat id tempor vel sit ornare turpis posuere.</p>
+              <a href="https://themefisher.com/" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+
+          <!-- authors -->
+          <div class="widget widget-author">
+            <h4 class="widget-title">Authors</h4>
+            <div class="media align-items-center">
+              <div class="mr-3">
+                <img class="widget-author-image" src="images/john-doe.jpg">
+              </div>
+              <div class="media-body">
+                <h5 class="mb-1"><a class="post-title" href="author-single.html">Charls Xaviar</a></h5>
+                <span>Author &amp; developer of Bexer, Biztrox theme</span>
+              </div>
+            </div>
+            <div class="media align-items-center">
+              <div class="mr-3">
+                <img class="widget-author-image" src="images/kate-stone.jpg">
+              </div>
+              <div class="media-body">
+                <h5 class="mb-1"><a class="post-title" href="author-single.html">Kate Stone</a></h5>
+                <span>Author &amp; developer of Bexer, Biztrox theme</span>
+              </div>
+            </div>
+            <div class="media align-items-center">
+              <div class="mr-3">
+                <img class="widget-author-image" src="images/john-doe.jpg" alt="John Doe">
+              </div>
+              <div class="media-body">
+                <h5 class="mb-1"><a class="post-title" href="author-single.html">John Doe</a></h5>
+                <span>Author &amp; developer of Bexer, Biztrox theme</span>
+              </div>
+            </div>
+          </div>
+          <!-- Search -->
+
+          <div class="widget">
+            <h4 class="widget-title"><span>Never Miss A News</span></h4>
+            <form action="#!" method="post" name="mc-embedded-subscribe-form" target="_blank" class="widget-search">
+              <input class="mb-3" id="search-query" name="s" type="search" placeholder="Your Email Address">
+              <i class="ti-email"></i>
+              <button type="submit" class="btn btn-primary btn-block" name="subscribe">Subscribe now</button>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_463ee871f45d2d93748e77cad_a0a2c6d074" tabindex="-1">
+              </div>
+            </form>
+          </div>
+
+
+          <div class="widget">
+            <h4 class="widget-title">Recent Post</h4>
+
+            <!-- post-item -->
+            <article class="widget-card">
+              <div class="d-flex">
+                <img class="card-img-sm" src="images/post/post-10.jpg">
+                <div class="ml-3">
+                  <h5><a class="post-title" href="post/elements/">Elements That You Can Use In This Template.</a></h5>
+                  <ul class="card-meta list-inline mb-0">
+                    <li class="list-inline-item mb-0">
+                      <i class="ti-calendar"></i>15 jan, 2020
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="widget-card">
+              <div class="d-flex">
+                <img class="card-img-sm" src="images/post/post-3.jpg">
+                <div class="ml-3">
+                  <h5><a class="post-title" href="post-details.html">Advice From a Twenty Something</a></h5>
+                  <ul class="card-meta list-inline mb-0">
+                    <li class="list-inline-item mb-0">
+                      <i class="ti-calendar"></i>14 jan, 2020
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="widget-card">
+              <div class="d-flex">
+                <img class="card-img-sm" src="images/post/post-7.jpg">
+                <div class="ml-3">
+                  <h5><a class="post-title" href="post-details.html">Advice From a Twenty Something</a></h5>
+                  <ul class="card-meta list-inline mb-0">
+                    <li class="list-inline-item mb-0">
+                      <i class="ti-calendar"></i>14 jan, 2020
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Social -->
+          <div class="widget">
+            <h4 class="widget-title"><span>Social Links</span></h4>
+            <ul class="list-inline widget-social">
+              <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="ti-github"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="ti-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Pricing Section ======= -->
+  <section id="pricing" class="pricing section">
+    <div class="container">
+
+      <div class="section-header text-center">
+        <h2>Nâng cấp tài khoản</h2>
+        <p>Bạn sẽ có được nhiều ưu đãi và nhiều chức năng cũng như tiện ích khi nâng cấp tài khoản bản thân với chúng tôi.</p>
+      </div>
+
+      <div class="row g-4 py-lg-5" data-aos="zoom-out" data-aos-delay="100">
+
+        <div class="col-lg-4">
+          <div class="pricing-item">
+            <h3>Tài khoản miễn phí</h3>
+            <div class="icon">
+              <i class='bx bx-package'></i>
+            </div>
+            <h4><sup>$</sup>0<span> / tháng</span></h4>
+            <ul>
+              <li><i class="bi bi-check"></i> Đăng bài viết mới</li>
+              <li><i class="bi bi-check"></i> Đăng bán các loại tài liệu</li>
+              <li><i class="bi bi-check"></i> Nạp và rút tiền không giới hạn</li>
+              <li class="na"><i class="bi bi-x"></i> <span>Thưởng hoa hồng </span></li>
+              <li class="na"><i class="bi bi-x"></i> <span>Được chia thưởng định kỳ</span></li>
+            </ul>
+            <div class="text-center"><a href="#" class="buy-btn">Mua Ngay</a></div>
+          </div>
+        </div><!-- End Pricing Item -->
+
+        <div class="col-lg-4">
+          <div class="pricing-item featured">
+            <h3>Nâng cấp theo tháng</h3>
+            <div class="icon">
+              <i class='bx bx-street-view'></i>
+            </div>
+
+            <h4><sup>$</sup>29<span> / tháng</span></h4>
+            <ul>
+              <li><i class="bi bi-check"></i> Đăng bài viết mới</li>
+              <li><i class="bi bi-check"></i> Đăng bán các loại tài liệu</li>
+              <li><i class="bi bi-check"></i> Nạp và rút tiền không giới hạn</li>
+              <li><i class="bi bi-check"></i> Thưởng hoa hồng</li>
+              <li><i class="bi bi-check"></i> Được chia thưởng định kỳ</li>
+            </ul>
+            <div class="text-center"><a href="#" class="buy-btn">Mua Ngay</a></div>
+          </div>
+        </div><!-- End Pricing Item -->
+
+        <div class="col-lg-4">
+          <div class="pricing-item">
+            <h3>Nâng cấp theo năm</h3>
+            <div class="icon">
+              <i class='bx bx-navigation' ></i>
+            </div>
+            <h4><sup>$</sup>49<span> / tháng</span></h4>
+            <ul>
+              <li><i class="bi bi-check"></i> Đăng bài viết mới</li>
+              <li><i class="bi bi-check"></i> Đăng bán các loại tài liệu</li>
+              <li><i class="bi bi-check"></i> Nạp và rút tiền không giới hạn</li>
+              <li><i class="bi bi-check"></i> Thưởng hoa hồng</li>
+              <li><i class="bi bi-check"></i> Được chia thưởng định kỳ</li>
+            </ul>
+            <div class="text-center"><a href="#" class="buy-btn">Mua Ngay</a></div>
+          </div>
+        </div><!-- End Pricing Item -->
+
+      </div>
+
+    </div>
+  </section><!-- End Pricing Section -->
+
+  <footer class="footer">
+    <svg class="footer-border" height="214" viewBox="0 0 2204 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M2203 213C2136.58 157.994 1942.77 -33.1996 1633.1 53.0486C1414.13 114.038 1200.92 188.208 967.765 118.127C820.12 73.7483 263.977 -143.754 0.999958 158.899"
+        stroke-width="2" />
+    </svg>
+
+
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5 text-center text-md-left mb-4">
+          <ul class="list-inline footer-list mb-0">
+            <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="terms-conditions.html">Terms Conditions</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 text-center mb-4">
+          <a href="index.html"><img class="img-fluid" width="100px" src="images/logo.png"
+              alt="Reader | Hugo Personal Blog Template"></a>
+        </div>
+        <div class="col-md-5 text-md-right text-center mb-4">
+          <ul class="list-inline footer-list mb-0">
+
+            <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+
+            <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+
+            <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+
+            <li class="list-inline-item"><a href="#"><i class="ti-github"></i></a></li>
+
+            <li class="list-inline-item"><a href="#"><i class="ti-youtube"></i></a></li>
+
+          </ul>
+        </div>
+        <div class="col-12">
+          <div class="border-bottom border-default"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JS Plugins -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+
+  <script src="plugins/slick/slick.min.js"></script>
+
+  <script src="plugins/instafeed/instafeed.min.js"></script>
+
+  <!-- glightbox -->
+  <script src="js/glightbox.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
